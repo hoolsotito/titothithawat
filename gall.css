@@ -87,3 +87,18 @@ footer {
 a {
     text-decoration: none;
 }
+
+
+
+@media (max-width:900px){
+    main{
+        grid-template-columns: 1fr 70%;
+    }
+    .FORBILDER{
+        width: 100%;
+    }
+    .FORVIDEO{
+        width: 100%;
+        grid-column: 2/3;
+    }
+}
